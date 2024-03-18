@@ -1,0 +1,33 @@
+<h2>Tüm Öğretim Üyeleri</h2>
+@model List<Ogretim_Uyeleri>
+
+<table>
+    <tr>
+        <th>Öğretim Üyesi ID</th>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Unvanı</th>
+    </tr>
+    @foreach (var ogretimUyesi in Model)
+    {
+        <tr>
+            <td>@ogretimUyesi.Ogretim_Uyesi_id</td>
+            <td>@ogretimUyesi.Ogretim_Uyesi_ad</td>
+            <td>@ogretimUyesi.Ogretim_Uyesi_soyad</td>
+            <td>@ogretimUyesi.Ogretim_Uyesi_unvan</td>
+        </tr>
+    }
+</table>
+
+<form asp-controller="Home" asp-action="OgretimUyesiEkle" method="post">
+    <label for="ogretimUyesiAd">Öğretim Üyesi Adı:</label>
+    <input type="text" name="ogretimUyesiAd" id="ogretimUyesiAd" required />
+
+    <label for="ogretimUyesiSoyad">Öğretim Üyesi Soyadı:</label>
+    <input type="text" name="ogretimUyesiSoyad" id="ogretimUyesiSoyad" required />
+
+    <label for="ogretimUyesiUnvan">Ünvan:</label>
+    <input type="text" name="ogretimUyesiUnvan" id="ogretimUyesiUnvan" required />
+
+    <button type="submit">Ekle</button>
+</form>

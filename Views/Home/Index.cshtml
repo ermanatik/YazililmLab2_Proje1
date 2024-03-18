@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Okul Yönetim Sistemi";
+}
+
+<h1>Okul Yönetim Sistemi</h1>
+
+<a asp-controller="Ogrenciler" asp-action="Index">Tüm Öğrenciler</a>
+<a asp-controller="Dersler" asp-action="Index">Tüm Dersler</a>
+<a asp-controller="OgretimUyeleri" asp-action="Index">Tüm Öğretim Üyeleri</a>
+<a asp-controller="AlinanDersler" asp-action="Index">Tüm Alınan Dersler</a>
+
+<div class="text-center">
+    <h1 class="display-4">Hoş Geldiniz</h1>
+</div>
+<form asp-controller="Home" asp-action="DogumYeriAyniOlanOgrencileriGetir" method="post">
+    <label for="dogumYeri">Doğum Yeri:</label>
+    <select name="dogumYeri" id="dogumYeri">
+        <option value="Gebze">Gebze</option>
+        <option value="Siirt">Siirt</option>
+        <option value="Beyköy">Beyköy</option>
+    </select>
+    <button type="submit">Öğrencileri Getir</button>
+</form>
+
+<br>
+
+<form asp-controller="Home" asp-action="DogumTarihiAyniOlanOgrencileriGetir" method="post">
+    <button type="submit">Doğum Tarihi Aynı Olan Öğrencileri Getir</button>
+</form>
+
+<br>
+
+<form asp-controller="Home" asp-action="OgrencileriGetirBySehirVeNot" method="post">
+    <label for="dogumYeri">Doğum Yeri:</label>
+    <input type="text" name="dogumYeri" id="dogumYeri" />
+    <br>
+    <label for="notDegeri">Not Değeri:</label>
+    <input type="text" name="notDegeri" id="notDegeri" />
+    <br>
+    <button type="submit">Öğrencileri Getir</button>
+</form>
+
+<br>
+
+<form asp-controller="Home" asp-action="NotuGecenOgrencileriGetir" method="post">
+    <label for="dersAdi">Ders Adı:</label>
+    <input type="text" name="dersAdi" id="dersAdi" />
+    <br>
+    <button type="submit">Notu Geçen Öğrencileri Getir</button>
+</form>
+
+<br>
+
+<form asp-controller="Home" asp-action="OgretimUyesineGoreOgrenciSayisiGetir" method="post">
+    <label for="ogretimUyesiAdi">Öğretim Üyesi Adı:</label>
+    <input type="text" name="ogretimUyesiAdi" id="ogretimUyesiAdi" />
+    <br>
+    <label for="dersAdi">Ders Adı:</label>
+    <input type="text" name="dersAdi" id="dersAdi" />
+    <br>
+    <button type="submit">Öğrenci Sayısını Getir</button>
+</form>

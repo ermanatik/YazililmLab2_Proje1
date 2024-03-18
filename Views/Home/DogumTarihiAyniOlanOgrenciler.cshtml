@@ -1,0 +1,29 @@
+﻿@model List<YazilimLab2_Proje1.Models.Ogrenciler>
+
+<h2>Doğum Tarihi Aynı Olan Öğrenciler</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Öğrenci ID</th>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Doğum Tarihi</th>
+            <th>Doğum Yeri</th>
+            <th>Şehir</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ogrenci in Model)
+        {
+            <tr>
+                <td>@ogrenci.Ogrenci_id</td>
+                <td>@ogrenci.Ogrenci_ad</td>
+                <td>@ogrenci.Ogrenci_soyad</td>
+                <td>@ogrenci.Ogrenci_dogum_tarihi.ToShortDateString()</td>
+                <td>@ogrenci.Ogrenci_dogum_yeri</td>
+                <td>@ogrenci.Ogrenci_sehir</td>
+            </tr>
+        }
+    </tbody>
+</table>

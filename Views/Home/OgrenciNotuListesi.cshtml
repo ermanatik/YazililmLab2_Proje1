@@ -1,0 +1,38 @@
+﻿@model List<YazilimLab2_Proje1.Models.Ogrenciler>
+
+@{
+    ViewData["Title"] = "Notu Geçen Öğrenciler";
+}
+
+<h1>Notu Geçen Öğrenciler</h1>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Doğum Tarihi</th>
+                <th>Doğum Yeri</th>
+                <th>Şehir</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ogrenci in Model)
+            {
+                <tr>
+                    <td>@ogrenci.Ogrenci_ad</td>
+                    <td>@ogrenci.Ogrenci_soyad</td>
+                    <td>@ogrenci.Ogrenci_dogum_yeri</td>
+                    <td>@ogrenci.Ogrenci_dogum_tarihi.ToShortDateString()</td>
+                    <td>@ogrenci.Ogrenci_sehir</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Notu geçen öğrenci bulunamadı.</p>
+}

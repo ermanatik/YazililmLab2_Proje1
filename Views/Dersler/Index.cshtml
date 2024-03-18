@@ -1,0 +1,33 @@
+@model List<Dersler>
+
+<h2>Tüm Dersler</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ders ID</th>
+            <th>Ders Adı</th>
+            <th>Ders Kredisi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Ders in Model)
+        {
+            <tr>
+                <td>@Ders.Ders_id</td>
+                <td>@Ders.Ders_adi</td>
+                <td>@Ders.Ders_kredi</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-controller="Home" asp-action="DersEkle" method="post">
+    <label for="dersAdi">Ders Adı:</label>
+    <input type="text" name="dersAdi" id="dersAdi" required />
+
+    <label for="dersKredi">Ders Kredisi:</label>
+    <input type="number" name="dersKredi" id="dersKredi" required />
+
+    <button type="submit">Ekle</button>
+</form>

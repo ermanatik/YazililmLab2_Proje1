@@ -1,0 +1,39 @@
+<h2>Tüm Alınan Dersler</h2>
+@model List<Alinan_Dersler>
+
+<table>
+    <tr>
+        <th>Alınan Ders ID</th>
+        <th>Öğrenci ID</th>
+        <th>Ders ID</th>
+        <th>Öğretim Üyesi ID</th>
+        <th>Notu</th>
+    </tr>
+    @foreach (var alinanDers in Model)
+    {
+        <tr>
+            <td>@alinanDers.Alinan_Ders_id</td>
+            <td>@alinanDers.Ogrenci_id</td>
+            <td>@alinanDers.Ders_id</td>
+            <td>@alinanDers.Ogretim_Uyesi_id</td>
+            <td>@alinanDers.Notu</td>
+        </tr>
+    }
+</table>
+
+
+<form asp-controller="Home" asp-action="AlinanDersEkle" method="post">
+    <label for="ogrenciId">Öğrenci ID:</label>
+    <input type="text" name="ogrenciId" id="ogrenciId" required />
+
+    <label for="dersId">Ders ID:</label>
+    <input type="text" name="dersId" id="dersId" required />
+
+    <label for="ogretimUyesiId">Öğretim Üyesi ID:</label>
+    <input type="text" name="ogretimUyesiId" id="ogretimUyesiId" required />
+
+    <label for="notu">Notu:</label>
+    <input type="text" name="notu" id="notu" required />
+
+    <button type="submit">Ekle</button>
+</form>

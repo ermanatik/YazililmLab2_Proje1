@@ -1,0 +1,42 @@
+<h2>Tüm Öğrenciler</h2>
+@model List<Ogrenciler>
+<table>
+    <tr>
+        <th>Öğrenci ID</th>
+        <th>Öğrenci Adı</th>
+        <th>Öğrenci Soyadı</th>
+        <th>Doğum Tarihi</th>
+        <th>Doğum Yeri</th>
+        <th>Şehir</th>
+    </tr>
+    @foreach (var Ogrenciler in Model)
+    {
+        <tr>
+            <th>@Ogrenciler.Ogrenci_id.ToString()</th>
+            <td>@Ogrenciler.Ogrenci_ad</td>
+            <td>@Ogrenciler.Ogrenci_soyad</td>
+            <td>@Ogrenciler.Ogrenci_dogum_tarihi.ToShortDateString()</td>
+            <td>@Ogrenciler.Ogrenci_dogum_yeri</td>
+            <td>@Ogrenciler.Ogrenci_sehir</td>
+        </tr>
+    }
+</table>
+
+<form asp-controller="Home" asp-action="OgrenciEkle" method="post">
+    <label for="ogrenciAd">Öğrenci Adı:</label>
+    <input type="text" name="ogrenciAd" id="ogrenciAd" required />
+
+    <label for="ogrenciSoyad">Öğrenci Soyadı:</label>
+    <input type="text" name="ogrenciSoyad" id="ogrenciSoyad" required />
+    <br />
+    <label for="ogrenciDogumYeri">Doğum Yeri:</label>
+    <input type="text" name="ogrenciDogumYeri" id="ogrenciDogumYeri" required />
+
+    <label for="ogrenciDogumTarihi">Doğum Tarihi:</label>
+    <input type="date" name="ogrenciDogumTarihi" id="ogrenciDogumTarihi" required />
+    <br />
+    <label for="ogrenciSehir">Şehir:</label>
+    <input type="text" name="ogrenciSehir" id="ogrenciSehir" required />
+    <br />
+    <button type="submit">Ekle</button>
+</form>

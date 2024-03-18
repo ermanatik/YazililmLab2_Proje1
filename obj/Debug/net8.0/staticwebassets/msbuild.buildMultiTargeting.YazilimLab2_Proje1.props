@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\YazilimLab2_Proje1.props" />
+</Project>

@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YazilimLab2_Proje1
+build_property.RootNamespace = YazilimLab2_Proje1
+build_property.ProjectDir = C:\Users\ERMAN\source\repos\YazilimLab2_Proje1\YazilimLab2_Proje1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ERMAN\source\repos\YazilimLab2_Proje1\YazilimLab2_Proje1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/AlinanDersler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbmFuRGVyc2xlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Dersler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc2xlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/DogumTarihiAyniOlanOgrenciler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2d1bVRhcmloaUF5bmlPbGFuT2dyZW5jaWxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/OgrencileriGetirBySehirVeNot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPZ3JlbmNpbGVyaUdldGlyQnlTZWhpclZlTm90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/OgrenciListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPZ3JlbmNpTGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/OgrenciNotuListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPZ3JlbmNpTm90dUxpc3Rlc2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/OgrenciSayisi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPZ3JlbmNpU2F5aXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Ogrenciler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaWxlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/OgretimUyeleri/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZXRpbVV5ZWxlcmlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ERMAN/source/repos/YazilimLab2_Proje1/YazilimLab2_Proje1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iht6bed10z
